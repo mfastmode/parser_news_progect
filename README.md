@@ -5,7 +5,7 @@
 
 Создаем виртуальное окружение и устанавливаем нужные библиотеки
 
-На винде:
+На винде (PowerShell терминал):
 
 python -m venv .venv (создаем виртуальное окружение)
 
@@ -18,6 +18,6 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 
-Установка необходимых библиотек
+Установка зависимости 
 
-pip install bs4 requests 
+pip install -r requirements.txt 

@@ -1,2 +1,3 @@
 # parser_news_progect
-Parser News
+Парсеры новостных сайтов
+pip install bs4 requests
